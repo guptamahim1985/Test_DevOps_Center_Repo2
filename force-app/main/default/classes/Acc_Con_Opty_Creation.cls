@@ -2,14 +2,15 @@ Public class Acc_Con_Opty_Creation
 {
     Public Account CreateAccount(String n)
     {
-        Account a = new Account(); a.Name='n';
+        Account a = new Account(); a.Name='n1';
         insert a;
-        Contact c = new Contact(); c.LastName='Satti Reddy';
+        Contact c = new Contact(); c.LastName='Satti Reddy1';
         c.AccountId=a.id;
         insert c;
-        Opportunity opp= new Opportunity(); opp.Name='Test Opportunity';
+        Opportunity opp= new Opportunity(); opp.Name='Test Opportunity1';
         opp.CloseDate=date.valueOf('2023-05-14T01:48:37.000+0000'); opp.StageName='Closed Lost';
         opp.Accountid=a.id;
+        //Test Comment 1
         insert opp;  return a;
     }
 }
