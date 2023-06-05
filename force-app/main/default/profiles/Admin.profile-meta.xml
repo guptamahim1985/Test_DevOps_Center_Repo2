@@ -8,6 +8,10 @@
         <apexClass>Acc_Con_Opty_Creation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>Acc_Con_Opty_CreationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <loginIpRanges>
         <endAddress>255.255.255.255</endAddress>

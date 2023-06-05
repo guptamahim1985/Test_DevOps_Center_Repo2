@@ -1,6 +1,6 @@
 Public class Acc_Con_Opty_Creation
 {
-    Public Account CreateAccount(String n)
+    Public Static Account CreateAccount(String n)
     {
         Account a = new Account(); a.Name='n2';
         insert a;
