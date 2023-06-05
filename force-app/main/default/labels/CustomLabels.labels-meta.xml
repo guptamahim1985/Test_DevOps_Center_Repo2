@@ -7,4 +7,11 @@
         <shortDescription>CL1</shortDescription>
         <value>CL1</value>
     </labels>
+    <labels>
+        <fullName>Test_Custom_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Test Custom Label</shortDescription>
+        <value>Test Custom Label 1</value>
+    </labels>
 </CustomLabels>
