@@ -14,4 +14,11 @@
         <shortDescription>Test Custom Label</shortDescription>
         <value>Test Custom Label 1</value>
     </labels>
+    <labels>
+        <fullName>Test_Custom_Label_10</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Test Custom Label</shortDescription>
+        <value>Test Custom Label</value>
+    </labels>
 </CustomLabels>
